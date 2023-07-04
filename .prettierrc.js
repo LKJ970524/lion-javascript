@@ -4,7 +4,7 @@ module.exports = {
   // 닫는 괄호(>) 위치 설정
   // ex: <div
   //       id="unique-id"
-  //       class="contaienr"
+  //       class="container"
   //     >
   htmlWhitespaceSensitivity: 'css',
   bracketSameLine: false,

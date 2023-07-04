@@ -1,5 +1,3 @@
-console.log('hello javascript!')
+// console.log('hello javascript!')
 
-const a = 10;
-
-const b = 10;
+// alert('경고!');
