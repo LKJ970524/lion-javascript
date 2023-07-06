@@ -8,8 +8,8 @@
 
 ### Basic
 - [x] codeStructure [바로가기](https://www.naver.com)
-- [ ] Variable 바로가기
-- [ ] Strice Mode 바로가기
-- [ ] Global This 바로가기
-- [ ] Data Types 바로가기
+- [x] Variable 바로가기
+- [x] Strice Mode 바로가기
+- [x] Global This 바로가기
+- [x] Data Types 바로가기
 - [ ] Type Conversion 바로가기
