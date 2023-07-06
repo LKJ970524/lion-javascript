@@ -19,7 +19,18 @@ let reverseValue = !value;
 // 조건 처리
 
 // 첫번째 Falsy를 찾는 연산 (&&)
-let whichFalsy = true && '' && [] && {thisIsFalsy: false};
+let whichFalsy = true && ' ' && [] && {thisIsFalsy: false};
+
+
+
+
 
 // 첫번째 Truthy를 찾는 연산 (||)
 let whichTruthy = false || '' || [2,3].length || {thisIsTruthy:true};
+
+
+
+
+
+
+
