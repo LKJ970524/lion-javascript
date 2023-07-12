@@ -2,7 +2,7 @@
 /* Copy object by reference  */
 /* ------------------------- */
 
-// 원시값은 각자 복사가 안된다
+
 // 복사(copy) vs. 참조(reference)
 
 let message = '문자 값은 프리미티브 데이터 타입으로 값이 복사됩니다.';
@@ -15,6 +15,9 @@ let text = message;
 text = '멋쟁이 사자처럼 6기'
 
 let conversationTool = messenger;
+
+// 참조복사 or 얕은복사 or 깊은복사 
+
 
 // delete conversationTool.name;
 
@@ -86,8 +89,6 @@ const cssMapB = {
 
 let combinedCssMap = {...cssMapA,...cssMapB};
 // let combinedCssMap = Object.assign({},cssMapA,cssMapB);
-
-
 
 
 
