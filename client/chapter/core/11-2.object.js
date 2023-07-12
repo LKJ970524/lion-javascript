@@ -2,7 +2,7 @@
 /* Copy object by reference  */
 /* ------------------------- */
 
-
+// 원시값은 각자 복사가 안된다
 // 복사(copy) vs. 참조(reference)
 
 let message = '문자 값은 프리미티브 데이터 타입으로 값이 복사됩니다.';
