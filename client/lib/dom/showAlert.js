@@ -10,9 +10,9 @@ export function showAlert(node,text = '에러',timeout = 1000){
   }
 
   node.textContent = text
-  addClass('.alert-error','is-active')
+  addClass(node,'is-active')
   setTimeout(() => {
-    removeClass('.alert-error','is-active')
+    removeClass(node,'is-active')
   },timeout)
 
 }
