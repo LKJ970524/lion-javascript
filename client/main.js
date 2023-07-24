@@ -1,5 +1,21 @@
-console.log('hello javascript!')
+import { diceAnimation, getNode, getNodes } from './lib/index.js';
 
-const a = 10;
+const [startButton, recordButton, resetButton] = getNodes('.buttonGroup > button');
 
-const b = 10;
+
+let isClicked = false
+  let stopAnimation
+
+
+function handleRollingDice(e) {
+
+  
+  if(!isClicked){
+    stopAnimation = setInterval(diceAnimation,100)
+  }else{
+    clearInterval(stopAnimation)
+  }
+  isClicked = !isClicked
+}
+
+startButton.addEventListener('click', handleRollingDice);
